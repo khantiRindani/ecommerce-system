@@ -1,0 +1,177 @@
+.dropdown-menu li:hover{
+    background: lightgrey;
+}
+.dark{
+    background: #333333;
+}
+header{
+    background: #222;
+    border-bottom: 5px solid yellowgreen;
+    margin-bottom: 40px;
+}
+footer{
+    border-top: 5px solid yellowgreen;
+    background: #262626;
+    margin-top:50px
+}
+.foo{
+    margin-top: 40px;
+    height:30px;
+    width:150px;
+    text-align: left!important;
+    border:1px lightgrey;
+    border-radius: 20px;
+    color:white !important;
+    background: linear-gradient(#333333,#222)!important
+}
+.foo:hover{
+    color:yellowgreen !important;
+}
+.foo:checked{
+    color:yellowgreen!important;
+}
+.slidebtn{
+    height:30px;
+    width:80px;
+    padding: 10px;
+    background: linear-gradient(yellow,yellowgreen);
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+}
+.slidebtn:hover{
+    background: yellowgreen;
+}
+h4{
+    color: white;
+}
+header ul{
+    list-style: square;
+}
+header ul li{
+    padding-left: 5px;
+   
+}
+header ul li:not(:last-child) {
+    border-right:1px outset black;
+    margin-bottom: 0 !important;
+}
+.myActive{
+    color: yellowgreen !important;
+}
+header p,footer p,a{
+    color: lightgray;
+    text-decoration: none;
+}
+footer p{
+    padding-left: 10px;
+}
+header a,footer a:hover{
+    background-color: transparent!important;
+    cursor: default;
+}
+header a,footer a:visited{
+    background-color: transparent!important;
+}
+#mybar{
+    font-size: 16pt;
+    height:100%
+}
+#mybar li{
+    width:100%;
+    margin-left: 0px;
+    border-bottom: 1px solid black;
+}
+#mynavbar a:hover{
+    background: lightgrey
+}
+#mynavbar{
+    border:1px ridge ;
+    box-sizing: border-box;
+    border-radius: 25px; 
+    margin-top: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background: linear-gradient(#333333,#222)
+}
+#heading{
+    background: linear-gradient(#444 ,#555);
+    height: 50px;
+    color: white;
+    font-size: 14pt;
+    padding:10px 10px 10px 10px;
+}
+.light-gray{
+    background: #e5e5e5 ;
+    padding: 15px!important;
+    border-bottom: 1px solid lightsteelblue
+}
+.dark-gray{
+    background:lightgray;
+    padding: 15px!important;
+    border-bottom: 1px solid lightsteelblue
+}
+#welcome-deco{
+    height: 5px;
+    background: yellowgreen;
+    width:100px;
+    margin-top: 7px;
+}
+#welcome-deco2{
+    height: 1px;
+    background: yellowgreen;
+    width:100%;
+    margin-bottom: 10px
+}
+#welcome-verticle{
+    border-left:7px solid yellowgreen;
+    padding-left: 12px;
+}
+img{
+    border:5px solid white
+}
+.myslides{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0
+}
+.slide-img{
+    width:400px; 
+    height:250px; 
+    border:8px solid lightgray;
+}
+.slide-heading{
+    font-size: 18pt !important;
+    color:white
+}
+.slide-content{
+    font-size: 14pt !important;
+    color: grey
+}
+.news-date{
+    color: grey;
+}
+.news{
+    color:gray;
+}
+.news-link{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#log{
+    margin-top:20px;
+    padding: 10px;
+    background: lightgray!important;
+    color: black!important;
+    border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+    .slide-img{
+        height: 200px;
+        width: 100%;
+    }
+    #myNavbar{
+        border:none;
+        background: transparent;
+    }
+}
